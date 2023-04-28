@@ -1,14 +1,16 @@
 import {useState, useEffect} from 'react';
 import {useNavigate} from 'react-router-dom';
 import {useBlog} from '../middleware/contextHooks';
+// eslint-disable-next-line
 import { Transition } from 'react-transition-group';
+// eslint-disable-next-line
 import {LoremIpsum} from 'lorem-ipsum';
 import {toast} from 'react-toastify';
+// eslint-disable-next-line
 import gsap from 'gsap';
 import {
-    Grid, Slider, TextField, Container,
-    Button, Paper, Stack, Typography, 
-    FormControlLabel, Checkbox
+    Grid, TextField, Container,
+    Button, Paper, Stack, Checkbox
 } from '@mui/material';
 
 // #region -----------( COMPONENTS )-------------
