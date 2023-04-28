@@ -6,7 +6,7 @@ import { truncateString } from '../middleware/utils';
 import {
     Grid,
     Button, Container, Tooltip,
-    Box, List, ListItem, ListItemText, Typography,
+    Box, List, ListItem, ListItemText,
 } from '@mui/material'
 
 import Masonry from '@mui/lab/Masonry'
