@@ -10,7 +10,7 @@ import {toast} from 'react-toastify';
 import gsap from 'gsap';
 import {
     Grid, TextField, Container,
-    Button, Paper, Stack, Checkbox
+    Button, Paper, Stack
 } from '@mui/material';
 
 // #region -----------( COMPONENTS )-------------
@@ -27,6 +27,7 @@ export default function NewBlog() {
         blogs, getBlogs, 
         blogCreated, currentBlog
     } = useBlog();
+    // eslint-disable-next-line
     const [onGenerate, setOnGenerate] = useState(false);
 
     useEffect(() => {
