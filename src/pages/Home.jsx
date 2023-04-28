@@ -1,13 +1,12 @@
 import {useState, useEffect} from 'react'
 import {
     Grid, TextField, Button, Typography,
-    CssBaseline, Paper, Box, Avatar,
+    CssBaseline, Paper, Box,
     InputAdornment
 } from '@mui/material'
 import { useNavigate, Link } from 'react-router-dom'
 import {toast} from 'react-toastify'
 // #region --------------( ICONS )--------------
-import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import VisibilityOffOutlinedIcon from '@mui/icons-material/VisibilityOffOutlined';
 // #endregion
